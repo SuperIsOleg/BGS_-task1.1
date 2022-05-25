@@ -7,12 +7,10 @@
 
 import Foundation
 
-var Images = [String:ImagesModel]()
+typealias Images = [String: ImagesModel]
 
 struct ImagesModel: Codable {
-    let photoURL: String
-    let userName: String
-    let userURL: String
+    let photoURL, userName, userURL: String
     let colors: [String]
     
     enum CodingKeys: String, CodingKey {
