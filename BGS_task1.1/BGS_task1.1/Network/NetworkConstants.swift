@@ -8,5 +8,5 @@
 import Foundation
 
 struct NetworkConstants {
-    static let url = "http://dev.bgsoft.biz/task/"
+    static let url = "http://dev.bgsoft.biz/task/credits.json"
 }
